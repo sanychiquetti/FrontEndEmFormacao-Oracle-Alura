@@ -1,0 +1,11 @@
+/*Para trabalhar com flex box, devemos olhar o html, e ver quem são os elementos que quero alinhar, ou posicionar? Então devemos pegar o pai desses elementos, pois ele que envolve os elementos que quero posicionar, e colocar o flexbox nele*/
+
+.cabecalhoPrincipal .container{ /*aqui estou pegando o cabeçalho (que é a classe pai, dos elementos que quero posicionar) e ela está dentro do cabeçalho principal*/
+    display: flex;
+    align-items: center; /*aqui etsou alinhando os elementos que estão dentro desse container, que agora é flex, no centro verticalmente*/
+    justify-content: space-between;/*aqui eu jogo o espaço vazio entre os elementos, */
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}

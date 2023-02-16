@@ -1,0 +1,20 @@
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center; /*faz ficarem alinhados verticalmente*/
+    justify-content: space-around; /* aqui para colocar espaço em volta dos elementos, essa propriedade não vai funcionar se não colocar mais espaço nela com o width, pois o elemento(nesse caso é a ul) está pequeno, então presisamos dar mais espaço para ela com width.*/
+    width: 70%; /*colocar a medida em % e ver cse ficou bom, se não, ajuste a medida, e ir no outro elemento, que seria o "irmão" desse no container, e colocar uma width tb com a medida restante*/
+    margin-right: 5%;/*aqui descolamos ele do elemento do lado direito*/
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;/*repare que ao dar esse comando na classe pai, ele alinha os elementos filhos deixando todos com a mesma altura e colados lado a lado */
+}

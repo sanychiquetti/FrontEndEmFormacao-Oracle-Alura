@@ -1,0 +1,58 @@
+.flexContainer:last-child { margin-top: 2em;}
+body{ margin:  0; padding:0;}
+div{ height: 50px; width: 50px;}
+div:nth-child(1){ background-color: red; width: 50px; height: 50px;}
+div:nth-child(2){ background-color: blue;}
+div:nth-child(3){ background-color: green;}
+div:nth-child(4){ background-color: yellow;}
+div:nth-child(5){ background-color: pink;}
+div:nth-child(6){ background-color: black;}
+div:nth-child(7){ background-color: orangered;}
+div:nth-child(8){ background-color: crimson;}
+
+
+/*Flex-Grow - serve para aumentar os itens, por padrão ele é 0, então não aumenta os itens*/
+.flexContainer{
+    display: flex;
+}
+
+/*aqui estamos colocando o grow em todos os filhos item, então o navegador vai pegar ver a qdade de item que temos, pegar o espaço da tela e dividir de forma igual para todos*/
+.flexItem{
+   /*flex-grow: 1; O flex-grow recebe um valor numérico sempre, ele distribui o espaço nos elementos, todos ficam com a mesma medida, colocando 1, estamos dizendo para ele colocar 1 parte desse espaço para cada item*/
+}
+
+/*Aqui vamos pegar o que queremos que tenha mais espaço, colocar mais uma classe nela, e estilizar essa classe, dando mais grow nela, mas repare que agora o navegador vai dividir em 5 partes, e dar 2 partes para o primeiro*/
+.primeiro{
+    /*flex-grow: 2;aqui estamos dizendo para o navegador, pegar 2 partes desse espaço e dar para esse elemento*/
+}
+
+/*Se colocarmos:
+.flexItem{
+    flex-grow: 2;
+ }
+ 
+.primeiro{
+    .flex-grow: 3;
+}
+O navegador vai somar a qdade de grow, que agora são 9 (3 para o primeiro, 2 para o segundo, 2 para o terceiro e 2 para o quarto), vai dividir o espaço em 9, e dar 3 partes para o primeiro, 2 partes para os demais.*/
+
+/*Flex-shrink - serve para diminuir os itens, veja que isso só vai ser feito quando diminuirmos a tela, no responsivo...*/
+
+.flexItem{
+    /*flex-shrink: 1; aqui ele vai diminuir proporcional, se eu colocar 0, ele não vai diminuir conforme a tela diminui, pois por padrão é 0, apenas a tela vai dar um zoo, mas o item permanece com a mesma medida*/
+}
+
+.primeiro{
+    /*flex-shrink: 2; aqui ele vai diminuir 2x mais que os outros*/
+}
+
+/*Temos o flex basis, ele recebe numero absoluto, ex pixels, ou %, ele tem a mesma função do width*/
+
+.flexItem{
+    /*flex-basis: 200px; (poderia colocar em 25%)*/
+}
+/*Se eu quiser colocar uma abreviação dos 3 grow e o shrink e basis, posso usar o flex:
+.primeiros{
+    flex: 1 1 25%; (primeiro seria p grow e segundo o shrink)
+}*/
+

@@ -1,0 +1,6 @@
+.cabecalho{
+    display: flex; /*aqui alinhamos os filhos lado a lado*/
+    justify-content: space-between; /*aqui colocamos o espaço que sobra na tela, ente os elementos*/
+    align-items: center; /*aqui colocamos alinhamento vertical no centro*/
+}
+

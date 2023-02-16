@@ -1,0 +1,17 @@
+.conteudoPrincipal-cursos{
+    display: flex;/*dessa forma ele vai colocar um ao lado do outro, mas devido ele estar com position absolute, ele perde o tamanho dele, precisamos dar tamanho a ele direto nas li*/
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%; /*como eles estão todos em uma linha só, precisamos fazer ele quebrar, por isso precisamos colocar no pai o wrap*/
+    /*margin: 1%; retirei esse margin  ,pois estava deixando alguns elementos menores*/
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0; /*tiramos a margem a direta dos elementos*/
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0; /*tiramos a margem a esquerda dos elementos*/
+}

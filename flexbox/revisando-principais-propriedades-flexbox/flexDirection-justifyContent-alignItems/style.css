@@ -1,0 +1,28 @@
+.flexContainer:last-child { margin-top: 2em;}
+body{ margin:  0; padding:0;}
+div{ height: 50px; width: 50px;}
+div:nth-child(1){ background-color: red; width: 80px; height: 80px;}
+div:nth-child(2){ background-color: blue;}
+div:nth-child(3){ background-color: green;}
+div:nth-child(4){ background-color: yellow;}
+div:nth-child(5){ background-color: pink;}
+div:nth-child(6){ background-color: black;}
+div:nth-child(7){ background-color: orangered;}
+div:nth-child(8){ background-color: crimson;}
+
+
+/*Ver a diferença do alinhamento do align-items e jistify-content quando mudamos a direção com o flex-direction: column
+.flexContainer{
+    display: flex; /*coloca lado a lado em linha */
+    /*justify-content: space-around; distribui na tela dando o mesmo espaçamento em todos os lados*/
+    /*align-items: center; alinha os elementos no centro, pois estão alinhados no top, como ttemos um elemento maior, podemos deixar alinhado no centro desse elemento, o stretch faria ele ficar esticado para todos ficarem com a mesma medida 
+}*/
+
+/*Aqui vamos usar o flex-direction e ver o comportamento*/
+.flexContainer{
+    display: flex;
+    flex-direction: column; /*agora mudamos a direção do eixo*/
+    align-items: center; /*Veja que eles estão alinhados no centro da tela*/
+    justify-content: space-around;/*veja que se não colocarmos uma altura no container, ele não vai funcionar, pois ele agora está ocupando todo o espaço do container*/
+    height: 400px;/*veja que agora o justify-content tem espaço para alinhar os elementos*/
+}

@@ -1,0 +1,8 @@
+
+.rodapePrincipal-navMap-list{
+    display: flex;/* Com flex, eles ficam lado a lado, e passa da página*/
+    flex-direction: column; /*aqui colocamos a direção em forma de coluna, e eles voltaram a ficar um embaixo do outro, mas queremos os h4 que fiquem um do lado do outro, uma forma de fazer isso é dando medida para todos eles quebrarem e colocando o wrap*/
+    flex-wrap: wrap; /**posso abreviar o flex-direction e o flex-wrap com o flex-flow: column wrap*/
+    height: 265px; 
+}
+

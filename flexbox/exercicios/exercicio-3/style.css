@@ -1,0 +1,13 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course{
+    background-color: cornflowerblue;
+    color: white;
+
+    width: 31.3%;
+    height: 50px;
+    margin: 1%;
+}

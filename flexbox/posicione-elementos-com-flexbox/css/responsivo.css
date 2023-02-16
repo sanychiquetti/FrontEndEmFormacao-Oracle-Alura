@@ -1,0 +1,56 @@
+@media(max-width: 768px) {
+
+    .cabecalhoPrincipal-nav{
+        flex-direction: column; /*colocando em coluna*/
+    }
+
+    .cabecalhoPrincipal .container{
+        flex-direction: column; /*colocando em coluna*/
+        align-items: initial; /*tirando o align items configurado anteriormente, para que ele alinhe na tela toda*/
+        text-align: center; /*centralizando o texto*/
+    }
+
+    .conteudoPrincipal-cursos{
+        flex-direction: column; /*para que fique em forma de coluna*/
+    }
+
+    .conteudoPrincipal-cursos-link{
+        width: 100%; /*ocupando a tela toda*/
+    }
+
+    .rodapePrincipal-navMap-list{
+        height: auto; /*aqui pedimos para que ele mesmo calcule a medida que precisa para colocar em coluna*/
+    }
+    
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column; /*fica um em baixo do outro, mas ainda não está alinhado no centro, como mudamos a direção, não vamos usar o justify-content, mas sim o align-itens*/
+        align-items: center; /*para alinhar ainda precisa tirar o width que colocamos no formulário*/
+    }
+
+    .rodapePrincipal-patrocinadores-list{
+       margin: 0;
+       width: 100%;
+    }
+
+    .rodapePrincipal-contatoForm{
+        width: auto; /*aqui fazemos ele ocupar o espaço todo da tela */
+    }
+
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+    }
+
+    /*O icone mais importante em nosso site é baixe nosso app, então devemos trazer ele para cima, mudando a orden dos itens*/
+
+    .cabecalhoPrincipal-nav-link-app{
+        order: -1; /*por padrão ele vem com 0, então se quero mudar a ordem coloco -1*/
+    }
+    
+    .videoSobre .container{
+        flex-direction: column;
+    }
+
+    .videoSobre-video{
+        margin: 0 auto;/*aqui alinhamos na tela*/
+    }
+}

@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: crimson;
+    width: 20%;
+    margin: 1%;
+    color: white;
+    font-size: 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.562);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

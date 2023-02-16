@@ -1,0 +1,19 @@
+.videoSobre .container {
+    display: flex; /*para ficar um ao lado do outro*/
+}
+
+.videoSobre-sobre{
+    text-align: center; /*centralizando o texto*/
+    display: flex; /*aqui para que nosso buton, possa ser centralizado na tela */
+    flex-direction: column; /*como colocamos um display flex, ele colocou tudo em linha, precisamos que volte a ser coluna*/
+    flex-grow: 2; /*fazemos ele ocupar 2 partes das 3 partes que dividímos a tela(2 que colocamos aqui e 1 que colocamos no .videoSobre-sobre-list)*/
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 1; /*aqui pedimos que ocupe toda a 1 parte das 3 que dividimos na tela*/
+}
+
+.videoSobre-video{
+    flex-grow: 1; /*aqui pedimos para nosso video crescer no que sobrou da tela*/
+    flex-shrink: 2;
+}
