@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Apeperia</title>
-    
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/chamada.css">
     <link rel="stylesheet" href="./css/variaveis.css">
+    <link rel="stylesheet" href="./css/destaques.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho container">
         <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
         <nav class="cabecalho__navegacao">
             <ul>
@@ -28,11 +29,25 @@
         </nav>
     </header>
     <main>
-        <section class="chamada">
+        <section class="chamada container">
             <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
             <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
-            <a class="chamada__botao" href="#">Conheça os planos</a>
+            <a class="chamada__botao botao" href="#">Conheça os planos</a>
         </section>
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Destaques</h2>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="./img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo " class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                </figure>
+            </a>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="./img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular" class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Veja dicas de como fotografar usando seu celular</figcaption>
+                </figure>
+            </a><a href="#" class="destaques__botao botao">Receber destaques por email</a></section>
     </main>
 </body>
 </html>
