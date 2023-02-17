@@ -1,2 +1,2 @@
-# FrontEndEmForma-o-Oracle-Alura
+# FrontEndEmFormacao-Oracle-Alura
  Meu curso FrontEnd | Oracle | Alura
