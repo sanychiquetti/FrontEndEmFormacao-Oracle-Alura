@@ -1,0 +1,12 @@
+.sobre__descricao{
+    font-family: var(--font-roboto);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 2.063rem;
+    text-align: center;
+    color: var(--cor-cinza);
+    width: 993px;
+    margin:auto ;
+    padding-top: 10px;
+}

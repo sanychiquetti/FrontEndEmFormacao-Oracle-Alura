@@ -1,0 +1,5 @@
+.banner__img{
+    width: 100%;
+    height: calc(100vh-72px);
+    position:relative;
+}

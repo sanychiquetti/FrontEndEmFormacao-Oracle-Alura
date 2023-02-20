@@ -1,0 +1,9 @@
+.sobre__titulo{
+    font-family: var(--font-pacifico);
+    color: var(--color-red);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.188rem;
+    line-height: 5.625rem;
+    text-align: center;
+}
