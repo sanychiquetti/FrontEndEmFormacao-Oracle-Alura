@@ -1,0 +1,7 @@
+.quem-somos__descricao{
+    color: var(--cor-cinza);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.75rem;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.quem-somos__titulo{
+    color: var(--color-red);
+    font-family: var(--font-pacifico);
+    font-weight: 400;
+    font-size: 3.180rem;
+    line-height: 5.598rem;
+    padding: 1rem;
+    text-align: center;
+}

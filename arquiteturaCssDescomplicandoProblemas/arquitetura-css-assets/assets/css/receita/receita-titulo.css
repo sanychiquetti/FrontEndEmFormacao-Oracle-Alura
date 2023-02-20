@@ -1,0 +1,7 @@
+.receita__titulo{
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 1.438rem;
+    font-style: normal;
+    line-height: 1.5;
+}

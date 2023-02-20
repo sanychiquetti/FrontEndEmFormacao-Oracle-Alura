@@ -1,5 +1,6 @@
 .banner__img{
-    width: 100%;
+    /* background-image: url('../../img/banner.jpg'); */
     height: calc(100vh-72px);
-    position:relative;
+    position:relative;    
+    width: 100%;
 }
