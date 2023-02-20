@@ -7,9 +7,12 @@
 }
 
 :root{
-    --color-white: #fdfdfd;
-    --color-red: #8D0606;
+    --cor-white: #fdfdfd;
+    --cor-white2: #f9f9f9;
+    --cor-cinza-medio: #333333;
     --cor-cinza: #8C8888;
+    --cor-cinza-clarinho: #808080;
     --cor-cinza-claro: #E5E5E5;
+    --cor-red: #8D0606;
     --cor-red-escuro: #620404;
 }

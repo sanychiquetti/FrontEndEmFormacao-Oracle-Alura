@@ -3,7 +3,19 @@
     color: var(--color-red);
     font-style: normal;
     font-weight: 400;
-    font-size: 3.188rem;
     line-height: 5.625rem;
     text-align: center;
+}
+
+
+@media screen and (min-width: 0) {
+    .sobre__titulo{
+        font-size: 2rem ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__titulo{
+        font-size: 3.188rem;
+    }
 }

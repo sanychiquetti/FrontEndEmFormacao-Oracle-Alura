@@ -1,10 +1,8 @@
 .banner__titulo{
-    color: var(--color-white);
+    color: var(--cor-white);
     font-family: var(--font-pacifico);
-    font-size: 5.063rem;
     font-style: normal;
     font-weight: normal;
-    line-height: 8.875rem;
     left: 50%;
     position: absolute;
     top: 50%;
@@ -12,4 +10,22 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .banner__titulo{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo{
+        font-size: 5.063rem;
+    }
 }

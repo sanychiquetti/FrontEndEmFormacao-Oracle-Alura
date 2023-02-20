@@ -1,9 +1,9 @@
 .receita__botao{
     align-items: center;
-    background-color: var(--color-red);
+    background-color: var(--cor-red);
     border: none;
     border-radius: 5px;
-    color: var(--color-white);
+    color: var(--cor-white);
     display: flex;
     height: 2.313rem;
     padding: 1rem; 

@@ -1,12 +1,12 @@
 .menu__link{
-    color: #808080;
+    color: var(--cor-cinza-clarinho);
     margin-right: 1.25rem;
     text-decoration: none;
     text-transform: lowercase;
 }
 
 .menu__link.ativo{
-    color: #333333;
+    color: var(--cor-cinza-medio);
     font-weight: bold;
 }
 
