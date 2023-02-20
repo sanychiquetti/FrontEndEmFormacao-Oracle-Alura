@@ -2,27 +2,7 @@
     background: var(--cor-white);
     display: flex;
     flex-direction: column;
-    margin: 1.875rem;
-    width: calc(25% - 1.875rem)
+    margin: 2.9rem;
+    flex: 0 1 300px;
 }
 
-@media screen and (min-width: 0) {
-    .receita{
-        margin-right: 0;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 560px) {
-    .receita{
-        margin: 1.355rem;
-        width: calc(25% - 1.335rem);
-    }
-}
-
-/* @media screen and (min-width: 992px) {
-    .receita{
-        margin: 1.875rem;
-        width: calc(25% - 1.875rem);
-    }
-} */

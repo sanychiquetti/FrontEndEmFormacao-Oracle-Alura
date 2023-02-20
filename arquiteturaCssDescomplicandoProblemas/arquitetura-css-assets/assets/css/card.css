@@ -2,12 +2,6 @@
     background: var(--cor-cinza-claro);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 2.5rem 2.5rem 0 2.5rem;    
-}
-
-@media screen and (min-width: 560px) {
-    .card{
-        padding: 1.5rem 1.5rem 0 1.5rem;
-    }
+    max-width: 100%;  
+    padding: 3.75rem;
 }
