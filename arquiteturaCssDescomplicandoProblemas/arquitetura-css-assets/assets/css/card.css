@@ -3,5 +3,18 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;  
-    padding: 3.75rem;
+ }
+
+@media screen and (min-width: 0){
+    .card{
+        padding: 5rem 0 0 1rem;
+    }    
+}
+
+
+@media screen and (min-whidth: 560px){
+    .card{
+        margin-right: 2.5rem;
+        padding: 3.75rem;
+    } 
 }
